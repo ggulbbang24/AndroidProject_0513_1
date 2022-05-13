@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_pink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PINK"
+            android:backgroundTint="#FF91B0"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:id="@+id/btn_purple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PURPLE"
+            android:backgroundTint="#D48BF4"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:id="@+id/btn_skyblue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SKYBLUE"
+            android:backgroundTint="#7BCAEF"
+            />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#FFC7D7">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#EFC9FF">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#C9EBFB">
+
+        </LinearLayout>
+
+    </FrameLayout>
+</LinearLayout>
